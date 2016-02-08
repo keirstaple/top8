@@ -12,17 +12,25 @@
   font-weight: bold;
   margin-top: -20px;
   height: 60px;
-  vertical-align: middle;
+  position: relative;
 }
 
+.header h3{
+  top: 5%;
+  position: absolute;
+}
 
 .container {
   border: 2px solid #ffcc80;
   padding: 0px;
+  display: inline-block;
+  width: auto;
+  margin-left: 10%;
 }
 
 .friends {
-  padding: 20px;
+  padding: 10px;
+  padding-bottom: 0px;
 }
 .number {
   color: red;
@@ -41,7 +49,7 @@
   width: 100px;
   height: 100px;
   border: 3px solid #0033cc;
-  margin: 0 15px 15px 0;
+  margin: 0px 15px 15px 0;
 }
 
 .online {
